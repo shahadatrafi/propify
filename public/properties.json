@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Peninsula Apartments",
+    "location": "New York, USA",
+    "agent": "Mehrab Hossain",
+    "beds": 6,
+    "baths": 4,
+    "size": 1860,
+    "price": 24500,
+    "currency": "USD",
+    "image": "/src/assets/images/house1.png"
+  },
+  {
+    "id": 2,
+    "title": "Cityscape Penthouse",
+    "location": "San Francisco, USA",
+    "agent": "Ethan Parker",
+    "beds": 3,
+    "baths": 3,
+    "size": 2000,
+    "price": 22500,
+    "currency": "USD",
+    "image": "/src/assets/images/house2.png"
+  },
+  {
+    "id": 3,
+    "title": "Sunset Boulevard Condo",
+    "location": "Los Angeles, USA",
+    "agent": "Jessica Martinez",
+    "beds": 4,
+    "baths": 2,
+    "size": 1500,
+    "price": 18250,
+    "currency": "USD",
+    "image": "/src/assets/images/house3.png"
+  },
+  {
+    "id": 4,
+    "title": "Lakeview Loft",
+    "location": "Chicago, USA",
+    "agent": "Michael Johnson",
+    "beds": 3,
+    "baths": 2,
+    "size": 1200,
+    "price": 15500,
+    "currency": "USD",
+    "image": "/src/assets/images/house4.png"
+  },
+  {
+    "id": 5,
+    "title": "Oceanfront Villa",
+    "location": "Miami, USA",
+    "agent": "Isabella Rodriguez",
+    "beds": 5,
+    "baths": 4,
+    "size": 3000,
+    "price": 35200,
+    "currency": "USD",
+    "image": "/src/assets/images/house5.png"
+  },
+  {
+    "id": 6,
+    "title": "Harbor View Residence",
+    "location": "Seattle, USA",
+    "agent": "Olivia Campbell",
+    "beds": 4,
+    "baths": 2,
+    "size": 1400,
+    "price": 12500,
+    "currency": "USD",
+    "image": "/src/assets/images/house6.png"
+  },
+  {
+    "id": 7,
+    "title": "Mountain Escape Cabin",
+    "location": "Denver, USA",
+    "agent": "Liam Carter",
+    "beds": 3,
+    "baths": 2,
+    "size": 1600,
+    "price": 18700,
+    "currency": "USD",
+    "image": "/src/assets/images/house4.png"
+  },
+  {
+    "id": 8,
+    "title": "Downtown Modern Studio",
+    "location": "Austin, USA",
+    "agent": "Sophia Turner",
+    "beds": 2,
+    "baths": 1,
+    "size": 900,
+    "price": 9800,
+    "currency": "USD",
+    "image": "/src/assets/images/house1.png"
+  },
+  {
+    "id": 9,
+    "title": "Countryside Cottage",
+    "location": "Nashville, USA",
+    "agent": "Daniel Evans",
+    "beds": 4,
+    "baths": 3,
+    "size": 1750,
+    "price": 16200,
+    "currency": "USD",
+   "image": "/src/assets/images/house2.png"
+  }
+]
