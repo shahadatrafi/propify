@@ -12,6 +12,7 @@ import Contact from './assets/Components/pages/Contact/Contact.jsx';
 import Favorites from './assets/Components/pages/Favorites/Favorites.jsx';
 import Main from './assets/Components/Main/Main.jsx';
 import Home from './assets/Components/pages/Home/Home.jsx';
+import PropertyDetails from './assets/Components/pages/PropertyDetails/PropertyDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
         path: '/',
         loader: () => fetch('../public/properties.json'),
         element: <Home></Home>
+      },
+      {
+        path:'/:propertyId',
+        loader: () => fetch('../public/properties.json'),
+        element: <PropertyDetails></PropertyDetails>
       },
       {
         path: '/about',

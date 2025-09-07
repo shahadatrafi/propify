@@ -1,18 +1,21 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import logo from "../../images/Logo.png"
 
 const Nav = () => {
     return (
         <div className='border-b border-gray-200'>
             <div className='container mx-auto flex justify-between min-h-20 items-center '>
             <div>
-                <Link to={'/'}><h2 className='text-3xl font-extrabold '>Propi<span className='text-orange-500'>fy</span></h2></Link>
+                
+                <Link className=' w-100 ' to={'/'}><img className='w-100 max-w-[190px]' src={logo}></img></Link>
             </div>
             <div>
-                 <NavLink className='text-[18px] mr-5 hover:text-orange-500 transition ' to={'/'}>Home</NavLink>
-                <NavLink className='text-[18px] mr-5 hover:text-orange-500 transition ' to={'/about'}>About</NavLink>
+                 <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/'}>Home</NavLink>
+                <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/about'}>About</NavLink>
+                <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/about'}>Properties</NavLink>
                
-                <NavLink className='text-[18px] mr-5 hover:text-orange-500 transition ' to={'/favorites'}>Favorites</NavLink>
+                <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/favorites'}>Favorites</NavLink>
                 
             </div>
             <div>
