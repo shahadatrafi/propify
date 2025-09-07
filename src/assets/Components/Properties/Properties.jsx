@@ -1,9 +1,10 @@
 import React from 'react';
 import PropertyCard from '../PropertyCard/PropertyCard';
+import { useLoaderData } from 'react-router-dom';
 
-const Properties = ({properties}) => {
+const Properties = () => {
 
-    
+    const properties = useLoaderData();
 
     return (
         <div className='container mx-auto mt-12 grid grid-cols-3 gap-6'>

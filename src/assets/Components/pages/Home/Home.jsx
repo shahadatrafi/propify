@@ -5,12 +5,12 @@ import HeroImg from "../../../images/Image.png";
 import homeIcon from "../../../images/Group 118.png";
 import rotateImg from "../../../images/Group 46.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
-import { useLoaderData } from "react-router-dom";
+
 import Properties from "../../Properties/Properties";
 
 const Home = () => {
 
-  const properties = useLoaderData();
+  
   
 
   return (
@@ -67,7 +67,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-            <Properties properties={properties}></Properties>
+            <Properties ></Properties>
         </div>
       </section>
     </>

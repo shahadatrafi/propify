@@ -13,7 +13,7 @@ const Nav = () => {
             <div>
                  <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/'}>Home</NavLink>
                 <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/about'}>About</NavLink>
-                <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/about'}>Properties</NavLink>
+                <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/properties'}>Properties</NavLink>
                
                 <NavLink className='text-[18px] mr-12 hover:text-orange-500 transition ' to={'/favorites'}>Favorites</NavLink>
                 

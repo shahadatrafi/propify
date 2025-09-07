@@ -9,7 +9,8 @@
     "size": 1860,
     "price": 24500,
     "currency": "USD",
-    "image": "/src/assets/images/house1.png"
+    "image": "/src/assets/images/house1.png",
+    "description": "Peninsula Apartments is located in the heart of New York City, offering residents the perfect blend of modern living and urban convenience. With 6 spacious bedrooms and 4 stylish bathrooms, this home is ideal for large families or those who value extra space. The apartment features open-plan living, a contemporary kitchen with top-of-the-line appliances, and large windows that fill the space with natural light. Its prime location provides easy access to shopping districts, fine dining, schools, and public transport. Residents can enjoy breathtaking skyline views, a secure environment, and proximity to Central Park for weekend leisure. This property offers an unmatched balance of comfort, luxury, and convenience in one of the world’s most vibrant cities."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "size": 2000,
     "price": 22500,
     "currency": "USD",
-    "image": "/src/assets/images/house2.png"
+    "image": "/src/assets/images/house2.png",
+    "description": "The Cityscape Penthouse is a luxurious residence situated in San Francisco’s most sought-after neighborhood. This 3-bedroom, 3-bathroom property spans 2000 square feet, offering a sophisticated and modern lifestyle. The penthouse boasts an open layout with floor-to-ceiling windows, providing stunning panoramic views of the Golden Gate Bridge and downtown skyline. The interiors are crafted with premium finishes, including hardwood floors, custom cabinetry, and marble countertops. Residents will enjoy private rooftop access, state-of-the-art smart home technology, and a secure parking facility. With close proximity to tech hubs, shopping centers, and cultural landmarks, this property perfectly balances work and leisure."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "size": 1500,
     "price": 18250,
     "currency": "USD",
-    "image": "/src/assets/images/house3.png"
+    "image": "/src/assets/images/house3.png",
+    "description": "Located on the iconic Sunset Boulevard in Los Angeles, this 4-bedroom, 2-bathroom condo offers a vibrant lifestyle in the entertainment capital of the world. The property features a modern interior with sleek design, spacious living areas, and a fully equipped kitchen. Floor-to-ceiling glass doors open to a private balcony overlooking the bustling boulevard, providing residents with breathtaking sunset views. The condo community includes access to a swimming pool, fitness center, and 24/7 concierge service. Its prime location ensures easy access to Hollywood attractions, fine dining, shopping, and nightlife, making it an ideal choice for professionals and families who enjoy city living."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "size": 1200,
     "price": 15500,
     "currency": "USD",
-    "image": "/src/assets/images/house4.png"
+    "image": "/src/assets/images/house4.png",
+    "description": "The Lakeview Loft is a charming 3-bedroom, 2-bathroom residence located in Chicago’s scenic Lakeview neighborhood. Offering 1200 square feet of thoughtfully designed living space, this property is ideal for those seeking a blend of modern comfort and community living. Large windows provide plenty of natural light while offering stunning views of Lake Michigan. The loft includes an open-plan kitchen with stainless steel appliances, a spacious living room, and hardwood flooring throughout. Residents can enjoy nearby parks, lakeside walking trails, cultural landmarks, and vibrant restaurants. With excellent transport connectivity, Lakeview Loft is perfect for families, young professionals, or anyone looking to enjoy Chicago’s dynamic lifestyle."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "size": 3000,
     "price": 35200,
     "currency": "USD",
-    "image": "/src/assets/images/house5.png"
+    "image": "/src/assets/images/house5.png",
+    "description": "This luxurious Oceanfront Villa in Miami offers unparalleled beachside living. With 5 spacious bedrooms and 4 modern bathrooms spread over 3000 square feet, the property is designed for ultimate comfort and elegance. The villa features an open-concept floor plan, floor-to-ceiling glass walls with breathtaking ocean views, and direct beach access. A private infinity pool, outdoor entertainment area, and landscaped gardens enhance the luxury lifestyle. Inside, the home is equipped with a chef’s kitchen, smart lighting, and premium finishes throughout. Its prime location provides easy access to Miami’s nightlife, cultural attractions, and international airport, making it a perfect choice for both residential living and vacation retreats."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "size": 1400,
     "price": 12500,
     "currency": "USD",
-    "image": "/src/assets/images/house6.png"
+    "image": "/src/assets/images/house6.png",
+    "description": "Harbor View Residence is a beautiful 4-bedroom, 2-bathroom home in Seattle, overlooking the iconic waterfront. The 1400-square-foot property offers a warm and inviting ambiance with modern interiors, an open living room, and a fully equipped kitchen. Large glass windows provide residents with panoramic harbor views, creating a relaxing environment. The home includes a private backyard, perfect for family gatherings or quiet evenings. Its location ensures easy access to tech campuses, schools, shopping districts, and ferry terminals. With a balance of city convenience and natural beauty, Harbor View Residence is an excellent investment for families and professionals."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "size": 1600,
     "price": 18700,
     "currency": "USD",
-    "image": "/src/assets/images/house4.png"
+    "image": "/src/assets/images/house4.png",
+    "description": "Mountain Escape Cabin is a cozy yet spacious 3-bedroom, 2-bathroom retreat nestled in the breathtaking Rocky Mountains near Denver. Spanning 1600 square feet, this property is ideal for those who appreciate nature and outdoor living. The cabin is crafted with wood and stone elements, giving it a rustic charm while offering modern amenities inside. Residents can enjoy a large fireplace, open-plan kitchen, and wide windows showcasing stunning mountain views. Outdoor areas include a deck perfect for barbecues and stargazing. Located just minutes from hiking trails, ski resorts, and local markets, this cabin provides a serene getaway while keeping city conveniences within reach."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "size": 900,
     "price": 9800,
     "currency": "USD",
-    "image": "/src/assets/images/house1.png"
+    "image": "/src/assets/images/house1.png",
+    "description": "The Downtown Modern Studio in Austin is a stylish and compact property perfect for young professionals and small families. With 2 bedrooms, 1 bathroom, and 900 square feet of space, it offers functional design and comfort. The studio features a modern kitchen with high-end appliances, smart storage solutions, and a bright living space. Its location in downtown Austin provides residents with quick access to music venues, cultural hubs, dining spots, and tech offices. The community amenities include a rooftop terrace, fitness center, and coworking lounge. This property offers a perfect blend of urban energy and modern comfort."
   },
   {
     "id": 9,
@@ -105,6 +113,7 @@
     "size": 1750,
     "price": 16200,
     "currency": "USD",
-   "image": "/src/assets/images/house2.png"
+    "image": "/src/assets/images/house2.png",
+    "description": "Countryside Cottage is a charming 4-bedroom, 3-bathroom property located in the peaceful outskirts of Nashville. With 1750 square feet of living space, it combines rustic charm with modern amenities. The home features a spacious living area, open kitchen, and wooden interiors that exude warmth. Large windows allow for natural light and views of the surrounding greenery. The property includes a garden, patio, and ample outdoor space for family activities. Its location offers the tranquility of countryside living while still being close to Nashville’s music scene, schools, and shopping centers. This property is ideal for families seeking peace, privacy, and convenience."
   }
 ]
