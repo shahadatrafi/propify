@@ -45,7 +45,7 @@ const PropertyCard = ({
         />
       </div>
       <h3 className="text-3xl font-semibold mb-4 hover:text-orange-500 transition">
-        <Link to={`properties/${id}`}>{title}</Link>
+        <Link to={`/properties/${id}`}>{title}</Link>
       </h3>
       <div className="flex justify-between">
         <div className="flex items-center gap-2 border-r w-full">
@@ -117,7 +117,7 @@ const PropertyCard = ({
           </p>
         </div>
         <div>
-          <Button1 to={`properties/${id}`} text={"view"}></Button1>
+          <Button1 to={`/properties/${id}`} text={"view"}></Button1>
         </div>
       </div>
     </div>

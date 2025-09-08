@@ -4,8 +4,11 @@ import SubHeading from "../../SubHeading/SubHeading";
 import star from "../../../images/Star 2.svg";
 import bg from "../../../images/pro-bg.png";
 import SectionHeading from "../../SectionHeading/SectionHeading";
+import MetaInfo from "../../MetaInfo/MetaInfo";
+import Button1 from "../../Buttons/Button1";
+import Contact from "../Contact/Contact";
 const PropertyDetails = () => {
-  const { title, location, agent, beds, baths, size, price, image, description } =
+  const { title, location, agent, beds, baths, size, price, image, description, currency } =
     useLoaderData();
 
   console.log(title);
@@ -32,24 +35,13 @@ const PropertyDetails = () => {
         </div>
         <div className="w-2/5">
             <h2 className="text-3xl font-bold mb-6">More Details </h2>
-            <div className="flex justify-between border-b border-b-orange-500 mb-3 pb-2 text-2xl">
-                <h3>Location:</h3> {location}
-            </div>
-            <div className="flex justify-between border-b border-b-orange-500 mb-3 pb-2 text-2xl">
-                <h3>Size:</h3> {size} sqft
-            </div>
-            <div className="flex justify-between border-b border-b-orange-500 mb-3 pb-2 text-2xl">
-                <h3>Beds:</h3> {beds} 
-            </div>
-            <div className="flex justify-between border-b border-b-orange-500 mb-3 pb-2 text-2xl">
-                <h3>Bath:</h3> {baths} 
-            </div>
-            <div className="flex justify-between border-b border-b-orange-500 mb-3 pb-2 text-2xl">
-                <h3>Agent:</h3> {agent}
-            </div>
-            <div className="flex justify-between border-b border-b-orange-500 mb-3 pb-2 text-2xl">
-                <h3>Price:</h3> {price} USD
-            </div>
+            <MetaInfo title={"Location"} value={location}></MetaInfo>
+            <MetaInfo title={"Size"} value={size} suffix="sqft"></MetaInfo>
+            <MetaInfo title={"beds"} value={beds}></MetaInfo>
+            <MetaInfo title={"Bath"} value={baths}></MetaInfo>
+            <MetaInfo title={"Agent"} value={agent}></MetaInfo>
+            <MetaInfo title={"Price"} value={price} suffix={currency}></MetaInfo>
+            <Button1 text={"Contact Us"} ></Button1>
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto text-xl pb-28">
